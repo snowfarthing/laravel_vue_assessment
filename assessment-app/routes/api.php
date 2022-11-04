@@ -31,7 +31,7 @@ Route::post('/npi_query', function(Request $request) {
         'state=' . urlencode($data['state']),
         'zip_code=' . urlencode($data['zip_code']),
         'version=2.1',
-        'limit=2',
+        'limit=50',
         'skip=0',
     ];
 
