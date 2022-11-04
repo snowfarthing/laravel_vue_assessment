@@ -60,3 +60,18 @@ To install Vue.js ()(via this tutorial)[https://techvblogs.com/blog/how-to-insta
     npm run dev
     nmp run watch
 ```
+
+
+Status
+------
+
+This project reads in search terms from a Vue webform, and submits these terms to a Laravel
+API service.  This service then calls a third-party API to obtain information, and returns it
+to the Vue UI to be displayed.  The App shows a list of results (up to 50) and and provides a
+means to show the details of an individual record.
+
+ToDo:  implement pagination for when there are more than 50 results for a query.
+
+ToDo:  the data for each record is incomplete; this needs to be filled out more.
+
+ToDo:  the UI formatting could certainly use some refinement!
